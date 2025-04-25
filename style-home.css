@@ -72,6 +72,7 @@ h1{
     .title {
         display: flex;
         gap: 20px ;
+        font-size: 2px;
     }
     .contact{
         flex: 1;
@@ -79,6 +80,7 @@ h1{
     .t{
         flex: 3;
     }
+
 }
 .sidebar {
     position: fixed;
@@ -143,42 +145,3 @@ h1{
     
 }
 
-@media (max-width: 768px) {
-    .sidebar {
-        width: 100%; /* Full width on mobile */
-        height: auto; /* Auto height */
-        position: relative; /* Change to relative position */
-    }
-
-    .main-content {
-        margin-left: 0; /* Remove left margin */
-        margin-right: 0; /* Remove right margin */
-        padding: 10px; /* Add padding for content */
-    }
-
-    .title {
-        flex-direction: column; /* Stack title elements vertically */
-        align-items: flex-start; /* Align items to the start */
-    }
-
-    .contact {
-        flex-direction: column; /* Stack contact elements vertically */
-        align-items: flex-start; /* Align items to the start */
-    }
-
-    .contact div {
-        flex-direction: column; /* Stack buttons vertically */
-    }
-
-    .title h1 {
-        font-size: 20px; /* Adjust font size for mobile */
-    }
-
-    .title button {
-        padding: 8px; /* Smaller padding for mobile */
-    }
-
-    .card {
-        font-size: 20px; /* Adjust font size for cards on mobile */
-    }
-}
