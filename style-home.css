@@ -70,7 +70,6 @@ h1{
 }
 @media (min-width: 768px ){
     .title {
-        display: flex;
         gap: 20px ;
         font-size: 2px;
     }
