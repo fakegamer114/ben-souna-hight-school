@@ -69,35 +69,38 @@ h1{
     font-size: 24px;
 }
 @media (max-width: 768px ){
-    .h1{
-        font-size: 14px;
+    h1{
+        font-size: 10px;
     }
     .title {
-        flex-direction: column;
-        gap: 10px ;
-        text-align: center;
+        gap: 20px ;
+        font-size: 14px;
+        
     }
-    .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-bottom: 20px;
-    border-radius: 20px;
-  }
-
-  .main-content {
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .title button{
+        padding: 13px;
+    }
     .contact{
-        flex-direction: column;
-        gap: 10px ;
-        text-align: center;
+        width: 90%;
+        flex: 1;
+        padding: 0px;
+
+        
+    }
+    .contact button{
+        padding: 13px;
     }
     .t{
         flex: 3;
     }
+    .card {
 
+        padding: 5px;
+        font-size: 13px;
+      }
+      .sidebar{
+        position:absolute
+      }
 }
 .sidebar {
     position: fixed;
