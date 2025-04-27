@@ -77,6 +77,18 @@ h1{
         gap: 10px ;
         text-align: center;
     }
+    .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  .main-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
     .contact{
         flex-direction: column;
         gap: 10px ;
