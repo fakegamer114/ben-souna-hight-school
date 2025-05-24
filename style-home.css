@@ -149,8 +149,10 @@ footer {
 
 @media (max-width: 768px ){
     h1{
-        font-size: 11px;
-        width: 65%;
+        font-size: 12px;
+        width: 68%;
+        height: 35px;
+        flex: 1;
     }
     .title {
         gap: 20px ;
@@ -164,18 +166,20 @@ footer {
         display: inline-block ;
     }
     .contact{
-        width: 50%;
+        width: 65%;
         flex: 1;
-        padding: 0px;
-        font-size: 10;
+        
+        font-size: 12px;
+
           
       
     }
    
    
     .contact button{
-        padding: 8px;
-        height: 52px;
+        padding: 5px;
+        height: 45px;
+        font-size: 9px;
     }
    
    
@@ -210,8 +214,10 @@ footer {
         margin: 4px;
       }
       .logout button{
+
         font-size: 10px;
-        height: 62px;
+        height: 72px;
+        width: 64px;
       }
 
 
