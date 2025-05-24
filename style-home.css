@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    display: f;
+
 }
 
 .title {
@@ -24,7 +24,7 @@ body{
     box-shadow: 0 0 22px black;
     text-align: center;
     transition: all 0.3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin: 5px;
 }
 .title:hover{
@@ -60,7 +60,7 @@ body{
     margin: 0;
 }
 .title h1,.title h2{
-    background-color: black;
+    
     color: white;
     padding: 12px;
     border-radius: 16px;
@@ -83,9 +83,9 @@ h1{
     left: 0;
     width: 200px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0);
     font-size: 20px;
-    border-radius: 34px;
+    border-radius: 44px;
     transition: all 0.3s ease;
     box-shadow: 2px 0 9px rgba(0, 0, 0, 0.8);
 }
@@ -109,7 +109,7 @@ h1{
 .sidetitle {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    border-radius: 34px 34px 0 0 ; 
+    border-radius:14px 14px 34px 34px ; 
     color: black;
 
 }
@@ -126,6 +126,7 @@ h1{
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     color: black;
     font-size: 23px;
+    margin-top: 20px;
 }
 .main-content{
     margin-left: 220px;
@@ -138,10 +139,16 @@ footer {
     text-align: center; /* Center the text */
     padding: 10px; /* Padding for the footer */
     width: 100%; /* Full width */
-    
+    margin-top: 20%;
 }
 
-
+footer button{
+    background-color: rgb(130, 130, 130);
+    color: rgb(0, 0, 0);
+    border-radius: 10px ;
+    
+    
+}
 
 /* phone sizing*/
 
@@ -149,10 +156,11 @@ footer {
 
 @media (max-width: 768px ){
     h1{
-        font-size: 12px;
-        width: 68%;
+        font-size: 15px;
+        width: 78%;
         height: 35px;
         flex: 1;
+
     }
     .title {
         gap: 20px ;
@@ -221,4 +229,43 @@ footer {
       }
 
 
+}
+
+
+
+
+.light-mode {
+    background-color: #fefefe;
+    color: #111;
+}
+
+.light-mode nav,
+.light-mode .box,
+.light-mode .bar,
+.light-mode .black-box {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.light-mode .card{
+    background-color: rgb(130, 130, 130);
+    
+}
+
+.light-mode .sidetitle {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.light-mode .sidebar, .light-mode .sidebar a {
+    background-color: white;
+    color: black;
+}
+
+.light-mode h1{
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+.light-mode a {
+    color: #0077cc;
 }
