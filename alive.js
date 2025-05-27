@@ -6,10 +6,12 @@ function togglemode(){
     let x = document.getElementById("switsh_mode");
 
     if (document.body.classList.contains("light-mode")){
-        x.textContent= "DARKmode";
+        x.innerHTML= '<i class="fa-solid fa-moon"></i>';
         x.style.backgroundColor = "white";
+        x.style.color = "black";
     } else {
-        x.textContent= "LIGHTmode";
-        x.style.backgroundColor = "rgb(130, 130, 130)" ;
+        x.innerHTML= '<i class="fa-solid fa-sun"></i>';
+        x.style.backgroundColor = " rgb(0 ,0 ,0)" ;
+        x.style.color = "white";
     }
 }
