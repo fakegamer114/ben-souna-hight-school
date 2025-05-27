@@ -5,6 +5,8 @@ function togglemode(){
 
     let x = document.getElementById("switsh_mode");
 
+    
+
     if (document.body.classList.contains("light-mode")){
         x.innerHTML= '<i class="fa-solid fa-moon"></i>';
         x.style.backgroundColor = "white";
