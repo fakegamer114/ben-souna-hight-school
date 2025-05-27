@@ -45,19 +45,20 @@ body{
     display: flex;
     gap: 10px;
 }
-.contact button{
-    border-radius: 6px;
-    padding: 10px;
-    background-color: black;
-    color: white;
-}
+
 .title button{
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 10px; 
     background-color: black;
     color: white;
     padding: 17px;
     margin: 0;
+}
+.contact button{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
 .title h1,.title h2{
     
@@ -66,7 +67,9 @@ body{
     border-radius: 16px;
 }
 h1{
+    background-color: #000;
     font-size: 24px;
+    height: 35px;
 }
 
 
@@ -210,10 +213,7 @@ footer {
     }    
     
     h1{
-        font-size: 15px;
-        width: 78%;
-        height: 35px;
-        flex: 1;
+        font-size: 14px;
 
     }
     .title {
@@ -224,24 +224,16 @@ footer {
     .title button{
         padding: 13px;
         align-items: center;
-        font-size: 10px;
         display: inline-block ;
     }
     .contact{
-        width: 65%;
+        width: 55%;
         flex: 1;
         
         font-size: 12px;
 
           
       
-    }
-   
-   
-    .contact button{
-        padding: 5px;
-        height: 45px;
-        font-size: 9px;
     }
    
    
@@ -258,28 +250,28 @@ footer {
     }
     
     .sidebar {
-        width: 100%;
+        width: 80%;
         height: auto;
         position:relative;
         margin-bottom: 20px;
         border-radius: 20px;
         align-items: center;
-      }
+        margin-inline: 10%;
+    }
+      
       .main-content {
         margin-left: 0;
         margin-right: 0;
       }
 
       .card {
-        padding: 10px;
         font-size: 16px;
-        margin: 4px;
+        margin-inline: 35px;
       }
       .logout button{
 
-        font-size: 10px;
-        height: 72px;
-        width: 64px;
+        font-size: 15px;
+        height: 79px; 
       }
 
 
