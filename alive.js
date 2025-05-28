@@ -1,4 +1,7 @@
-console.log("welcome to the console");
+alert("this web may be unsuported in phones")
+
+console.log("welcome to the console devlloper\nfor now there is nothing to see her :)");
+
 function togglemode(){
 
     document.body.classList.toggle("light-mode");
