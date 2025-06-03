@@ -1,78 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ben-souna hight school</title>
-        <link rel="stylesheet" href="style-home.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <script src="alive.js"></script>
-    </head>
-    <body>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="موقع ثانوية أحمد بن سونة - أرزيو وهران">
+  <title>ثانوية أحمد بن سونة</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style-home.css">
+</head>
+<body>
+  <header>
+    <h1>ثانوية أحمد بن سونة</h1>
+    <p>أرزيو، وهران - الجزائر</p>
+  </header>
 
-        <header class="title">
-            <div class="logout"><a href="login.html"><button><i class="fa-solid fa-right-from-bracket"></i></button></a></div>
-            <div class="t">
-                <h1 style="padding: 25px">الموقع الرسمي لثانوية احمد بن سونة</h1>
-            </div>
-            <div class="contact">
-                <h3>contact us   </h3>
-                <div class="insta-email">
-                <a href=""><button><i class="fa-solid fa-envelope"></i></button></a>
-                <a href=""><button><i class="fa-brands fa-instagram"></i></button></a>
-                </div>
-            </div>   
-        </header>
-        
-        <div class="sidebar">
-            <div class="sidetitle">
-                <div class="L-Dmode">
-                    <button id="switsh_mode" onclick="togglemode()" ><i class="fa-solid fa-sun"></i></button>
-                </div>
-                <h2>the acount</h2>
-            </div>
-            <ul>
-               
-                <li><a href="">homepage</a></li>
-                <li><a href="">classe group chat</a></li>
-                <li><a href="">contact us</a></li>
-                <li><a href="">about</a></li>
-            </ul>
-        </div>
+  <nav>
+    <a href="#news">الأخبار</a>
+    <a href="#resources">الدروس</a>
+    <a href="#contact">اتصل بنا</a>
+    <a href="login.html">تسجيل الخروج</a>
+  </nav>
 
+  <main>
+    <section id="news" class="section">
+      <h2>آخر الأخبار</h2>
+      <p>سيتم تحديث الموقع بانتظام لنشر أخبار الثانوية، مواعيد الفروض، ونشاطات الأقسام.</p>
+    </section>
 
-        <div class="main-content">
-            
-            <div class="grid">
-                <div class="card">
-                    
-                    <h3><i class="fas fa-comments"></i> غرفة الدردشات</h3>
-                    <p>تواصل مع زملائك في القسم.</p>
-                </div>
-                <div class="card">
-                    
-                    <h3><i class="fas fa-user"></i> الحساب الشخصي</h3>
-                    <p>إدارة معلوماتك الشخصية.</p>
-                </div>
-                <div class="card">
-                    
-                    <h3><i class="fas fa-book"></i> التمارين والمواضيع</h3>
-                    <p>استعرض التمارين والمواضيع المنشورة.</p>
-                </div>
-                <div class="card">
-                    
-                    <h3><i class="fas fa-newspaper"></i> أحدث الأخبار</h3>
-                    <p>تابع آخر الأخبار والمستجدات.</p>
-                </div>
-            </div>
-        </div>
+    <section id="results" class="section">
+      <h2>نتائج التلاميذ</h2>
+      <p>يمكنك الاطلاع على معدلات الفصل من خلال إدخال رقم التسجيل أو الاسم في النظام عند توفره.</p>
+    </section>
 
+    <section id="resources" class="section">
+      <h2>الدروس والوثائق</h2>
+      <p>سيتم إضافة دروس وتمارين لكل المستويات قريبًا.</p>
+    </section>
 
+    <section id="contact" class="section">
+      <h2>اتصل بنا</h2>
+      <p>لأي استفسار، يمكنك التواصل مع إدارة الثانوية عبر البريد الإلكتروني أو من خلال زيارتنا مباشرة.</p>
+    </section>
+  </main>
 
-        
-    </body>
-    <footer>
-        <h5>&COPYAhmed ben-sounna . all rights saved</h5>
-    </footer>
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2025 - ثانوية أحمد بن سونة</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
