@@ -1,282 +1,49 @@
-body{
-    color: rgb(255, 255, 255);
-    overflow: auto;
-    height: 100%;
-    background-size: cover;
-    min-height: 100vh;
-    background-color: rgb(52, 52, 52);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+    font-family: 'Cairo', sans-serif;
     margin: 0;
-
-}
-
-.title {
-    display: flex;
-    background: linear-gradient(to right, #7c7c7c, #a3a3a3);  
-    color: black;
-    border-radius:  22px; 
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 5px;
-    box-shadow: 0 0 22px black;
-    text-align: center;
-    transition: all 0.3s ease;
-    margin-bottom: 30px;
-    margin: 5px;
-}
-.title:hover{
-    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.8);
-    transform: scale(1.01);
-}
-.contact {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    padding: 11px;
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-    border-radius:16px;
-    
-}
-.contact div{
-    display: flex;
-    gap: 10px;
-}
-
-.title button{
-    border-radius: 10px;
-    padding: 10px; 
-    background-color: black;
-    color: white;
-    padding: 17px;
-    margin: 0;
-}
-.contact button{
-    border-radius: 15px;
-    padding: 10px;
-    background-color: black;
-    color: white;
-}
-.title h1,.title h2{
-    
-    color: white;
-    padding: 12px;
-    border-radius: 16px;
-}
-h1{
-    background-color: #000;
-    font-size: 24px;
-    height: 35px;
-}
-
-
-
-
-
-
-
-
-
-
-.sidebar {
-    position: fixed;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    background-color: rgba(0, 0, 0);
-    font-size: 20px;
-    border-radius: 44px;
-    transition: all 0.3s ease;
-    box-shadow: 2px 0 9px rgba(0, 0, 0, 0.8);
-}
-.sidebar:hover{
-    transform: scale(1.015);
-    box-shadow: 5px 0 14px rgba(0, 0, 0, 0.8);
-}
-.sidebar ul {
-    list-style-type: none;
-}
-.sidebar h2 {
-    text-align: center;
-}
-.sidebar ul li {
-    margin: 15px 0;
-}
-.sidebar ul li a{
-    text-decoration: none;
-    color: white;
-}
-.sidetitle {
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius:14px 14px 34px 34px ; 
-    color: black;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
   }
-
-.card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    color: black;
-    font-size: 23px;
-    margin-top: 20px;
-}
-.main-content{
-    margin-left: 220px;
-    margin-right: 10px;
-    flex: 1;
-}
-footer {
-    background-color: rgba(0, 0, 0, 0.624); /* Background color for the footer */
-    color: white; /* Text color for the footer */
-    text-align: center; /* Center the text */
-    padding: 10px; /* Padding for the footer */
-    width: 100%; /* Full width */
-    margin-top: 20%;
-}
-.L-Dmode {
-    align-items: center;
-}
-.L-Dmode button{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border-radius: 10px ;
-    padding: 50%;
-    font-size: 10px;
-    
-    
-}
-
-
-.light-mode {
-    background-color: #fefefe;
-    color: #111;
-}
-
-.light-mode nav,
-.light-mode .box,
-.light-mode .bar,
-.light-mode .black-box {
-    background-color: #ffffff;
-    color: #000;
-}
-
-.light-mode .card{
-    background-color: rgb(130, 130, 130);
-    
-}
-
-.light-mode .sidetitle {
-    background-color: rgb(0, 0, 0);
+  header {
+    background-color: #2c3e50;
     color: white;
-}
-.light-mode .sidebar, .light-mode .sidebar a {
-    background-color: white;
-    color: black;
-}
-
-.light-mode h1{
-    background-color: rgb(255, 255, 255);
-    color: black;
-
-}
-.light-mode a {
-    color: #0077cc;
-}
-
-/* phone sizing*/
-
-
-
-@media (max-width: 768px ){
-    .L-Dmode button{
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border-radius: 10px ;
-        padding: 70%;
-        font-size: 20px;
-        
-        
-    }    
-    
-    h1{
-        font-size: 14px;
-
-    }
-    .title {
-        gap: 20px ;
-        font-size: 14px;
-        margin-bottom:24px;
-    }
-    .title button{
-        padding: 13px;
-        align-items: center;
-        display: inline-block ;
-    }
-    .contact{
-        width: 55%;
-        flex: 1;
-        
-        font-size: 12px;
-
-          
-      
-    }
-   
-   
-    .t{
-        flex: 3;
-    }
-    
-    .grid{
-        grid-template-columns: 1fr;
-    }
-   
-    .sidebar{
-        position:absolute;
-    }
-    
-    .sidebar {
-        width: 80%;
-        height: auto;
-        position:relative;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        align-items: center;
-        margin-inline: 10%;
-    }
-      
-      .main-content {
-        margin-left: 0;
-        margin-right: 0;
-      }
-
-      .card {
-        font-size: 16px;
-        margin-inline: 35px;
-      }
-      .logout button{
-
-        font-size: 15px;
-        height: 79px; 
-      }
-
-
-}
-
-
-
-
+    padding: 1rem;
+    text-align: center;
+  }
+  nav {
+    background-color: #34495e;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0.5rem 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .section {
+    margin: 2rem 0;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
