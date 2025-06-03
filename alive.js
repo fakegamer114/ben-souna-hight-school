@@ -1,4 +1,4 @@
-alert("this web may be unsuported in phones")
+alert("!يمكن ان يكون الموقع لا يدعم الهواتف بشكل كامل \n لذا في حال وجود مشكلة يرجى ابلاغنا")
 
 console.log("welcome to the console devlloper\nfor now there is nothing to see her :)");
 
