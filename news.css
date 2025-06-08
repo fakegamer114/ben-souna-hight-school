@@ -68,3 +68,58 @@ body {
     margin-top: 0.5rem;
   }
   
+    /* From Uiverse.io by Gaurav-WebDev */ 
+.button {
+  font-size: 1.7rem;
+  font-family: 'Cairo', sans-serif;
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1::after {
+  content: "تقدم اخر الاخبار و المستجدات";
+  height: 50px;
+  width: 250px;
+  background-color: #2c3e50;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(50px);
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1::before {
+  height: 50px;
+  width: 250px;
+  color: #000000;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(0px) scale(1.2);
+  font-size: 1.7rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1:hover::after {
+  transform: translateY(0) scale(1.2);
+}
+
+.type1:hover::before {
+  transform: translateY(-50px) scale(0) rotate(120deg);
+}
