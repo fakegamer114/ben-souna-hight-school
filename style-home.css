@@ -54,6 +54,7 @@ body {
   /* From Uiverse.io by Gaurav-WebDev */ 
 .button {
   font-family: 'Cairo', sans-serif;
+  font-size: 1.95rem;
   height: 50px;
   width: 250px;
   border: none;
@@ -83,7 +84,6 @@ body {
 }
 
 .type1::before {
-  content: "الصفحة الرئيسية";
   height: 50px;
   width: 250px;
   color: #000000;
