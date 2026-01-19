@@ -1,4 +1,4 @@
-alert("!يمكن ان يكون الموقع غير داعم للهواتف بشكل كامل \n لذا في حال وجود مشكلة يرجى ابلاغنا")
+alert("!يمكن ان يكون الموقع لا يدعم الهواتف بشكل كامل \n لذا في حال وجود مشكلة يرجى ابلاغنا")
 
 console.log("welcome to the console devlloper\nfor now there is nothing to see her :)");
 
@@ -20,4 +20,3 @@ function togglemode(){
         x.style.color = "white";
     }
 }
-
