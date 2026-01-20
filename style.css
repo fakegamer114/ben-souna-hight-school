@@ -8,7 +8,7 @@ body{
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
-    background-color: rgb(223, 219, 219);
+    background-color: rgb(95, 95, 95);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 h1, h3 {
@@ -17,21 +17,21 @@ h1, h3 {
 }
 h3{
     font-size: 23px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(168, 168, 168);
     color: black;
-    padding: 22px ;
+    padding: 10px ;
     border-radius: 45px;
-    width: 222px;
+    width: 90%;
     align-self: center;
     animation: fadeInUp 1s ease-out;
 }
 h1{
     font-size: 65px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(182, 182, 182);
     color: black;
     padding: 22px ;
     border-radius: 45px;
-    width: 422px;
+    width: 90%;
     align-self: center;
     animation: fadeInUp 1s ease-out;
 
@@ -57,11 +57,11 @@ a{
         display: flex;
         flex-direction: column;
         gap: 10px;
-        background-color:  rgba(255, 255, 255, 0.8);
+        background-color:  rgba(0, 0, 0, 0.8);
         padding: 20px ;
         border-radius: 12px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        width: 376px;
+        width: 80%;
         align-self: center;
         transition: all 0.6s ease;
         animation: fadeInUp 1s ease-out;
@@ -76,7 +76,7 @@ a{
     font-size: 16px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
-    color: white;
+    color: rgb(138, 138, 138);
     background-color: #333;
     transition: all 0.7s ease;
 
@@ -121,9 +121,9 @@ a{
     border: 0 0 43px red;
 }
 .fast_log{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 10px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(136, 136, 136);
+    padding: 5%;
     border-radius: 24px;
     align-items: center;
     align-self: center;

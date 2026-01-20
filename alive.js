@@ -1,4 +1,7 @@
-alert("!يمكن ان يكون الموقع لا يدعم الهواتف بشكل كامل \n لذا في حال وجود مشكلة يرجى ابلاغنا")
+if (!sessionStorage.getItem('alertShown')) {
+    alert("الموقع جديد و يمكن ان تواجهك بعض المشاكل \n لذا في حال وجود مشكلة يرجى ابلاغنا");
+    sessionStorage.setItem('alertShown', 'true');
+}
 
 console.log("welcome to the console devlloper\nfor now there is nothing to see her :)");
 
